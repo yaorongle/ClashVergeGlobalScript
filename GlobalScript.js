@@ -134,7 +134,7 @@ const ruleProviders = {
     },
      facebook_ip: {
         ...ruleProviderCommon,
-        behavior: "domain",
+        behavior: "ipcidr",
         url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo-lite/geoip/facebook.mrs",
         path: "./ruleset/facebook.mrs",
     },
@@ -242,7 +242,7 @@ const ruleProviders = {
     },
     whatsapp: {
         ...ruleProviderCommon,
-        behavior: "ipcidr",
+        behavior: "domain",
         url: "https://github.com/MetaCubeX/meta-rules-dat/raw/refs/heads/meta/geo/geosite/whatsapp.mrs",
         path: "./ruleset/whatsapp.mrs",
     },
