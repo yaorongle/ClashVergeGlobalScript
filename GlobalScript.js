@@ -54,6 +54,8 @@ const rules = [
     "RULE-SET,onedrive,Onedrive",
     "RULE-SET,microsoft,微软服务",
     "RULE-SET,ai,AI",
+    "RULE-SET,gemini,Gemini",
+    "RULE-SET,openai,ChatGTP",
     "RULE-SET,youtube,YouTube",
     "RULE-SET,netflix_ip,Netflix",
     "RULE-SET,netflix_site,Netflix",
@@ -168,6 +170,18 @@ const ruleProviders = {
         behavior: "domain",
         url: "https://github.com/DustinWin/ruleset_geodata/releases/download/mihomo-ruleset/ai.mrs",
         path: "./ruleset/ai.mrs",
+    },
+    gemini: {
+        ...ruleProviderCommon,
+        behavior: "domain",
+        url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/google-gemini.mrs",
+        path: "./ruleset/Gemini.mrs",
+    },
+    openai: {
+        ...ruleProviderCommon,
+        behavior: "domain",
+        url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/openai.mrs",
+        path: "./ruleset/openai.mrs",
     },
     bilibili: {
         ...ruleProviderCommon,
