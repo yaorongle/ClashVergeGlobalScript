@@ -32,7 +32,7 @@ scoop install clash-verge-rev
 
 > 点击订阅，右键点击右下角`全局扩展脚本`, 编辑文件，添加以下脚本：
 
-> [**👉单击此处打开文件：`GlobalScript.js`**](https://github.com/mwmi/ClashVergeGlobalScript/raw/refs/heads/main/GlobalScript.js "🌟鼠标右键另存为脚本")
+> [**👉单击此处打开文件：`GlobalScript.js`**](https://github.com/yaorongle/ClashVergeGlobalScript/raw/refs/heads/main/GlobalScript.js "🌟鼠标右键另存为脚本")
 
 如图:
 ![图片1](images/1.png)
